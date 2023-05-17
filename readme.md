@@ -4,11 +4,12 @@
 * python 3.8.*
 
 ```
-git clone https://github.com/yeongsang2/app.git
+git clone https://github.com/power-saver/power_app.git
 ```
 
 #### Create python virtaul environment
 ``` 
+cd power_app
 python -m venv power_venv
 ```
 #### Activate Python virtual environment
