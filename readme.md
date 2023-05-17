@@ -2,7 +2,6 @@
 
 #### Prerequisites
 * python 3.8.*
-* mongodb 6.0.*
 ```
 git clone https://github.com/power-saver/power_app.git
 ```
