@@ -1,0 +1,839 @@
+City: 가평군
+Latitude: 37.8123306
+Longitude: 127.40776533052104
+
+City: 강남구
+Latitude: 37.5177
+Longitude: 127.0473
+
+City: 강동구
+Latitude: 37.53
+Longitude: 127.1237
+
+City: 강릉시
+Latitude: 37.7525313
+Longitude: 128.8759523
+
+City: 강북구
+Latitude: 37.6395
+Longitude: 127.0255
+
+City: 강서구
+Latitude: 37.5509
+Longitude: 126.8497
+
+City: 강진군
+Latitude: 34.641917
+Longitude: 126.7669591
+
+City: 강화군
+Latitude: 37.746
+Longitude: 126.488
+
+City: 개성시
+Latitude: 37.9716991
+Longitude: 126.5527573
+
+City: 거제시
+Latitude: 34.8804677
+Longitude: 128.621207
+
+City: 거창군
+Latitude: 35.6872871
+Longitude: 127.9138505
+
+City: 경산시
+Latitude: 35.825122
+Longitude: 128.741329
+
+City: 경주시
+Latitude: 35.8556705
+Longitude: 129.2248811
+
+City: 계룡시
+Latitude: 36.275523
+Longitude: 127.2472702
+
+City: 계양구
+Latitude: 37.5373539
+Longitude: 126.7379078
+
+City: 고령군
+Latitude: 35.7258
+Longitude: 128.2632
+
+City: 고성군
+Latitude: 34.9732784
+Longitude: 128.322233
+
+City: 고양시
+Latitude: 37.6581862
+Longitude: 126.8319452
+
+City: 고창군
+Latitude: 35.4355
+Longitude: 126.7021
+
+City: 고흥군
+Latitude: 34.6044123
+Longitude: 127.276384
+
+City: 곡성군
+Latitude: 35.2818969
+Longitude: 127.2914673
+
+City: 공주시
+Latitude: 36.47257
+Longitude: 127.09124
+
+City: 과천시
+Latitude: 37.4289037
+Longitude: 126.9881655
+
+City: 관악구
+Latitude: 37.4782
+Longitude: 126.9518
+
+City: 광명시
+Latitude: 37.4810539
+Longitude: 126.8631275
+
+City: 광산구
+Latitude: 35.1396428
+Longitude: 126.7938232
+
+City: 광양시
+Latitude: 34.9406452
+Longitude: 127.6959512
+
+City: 광주시
+Latitude: 37.4290844
+Longitude: 127.255189
+
+City: 광진구
+Latitude: 37.5384
+Longitude: 127.0828
+
+City: 괴산군
+Latitude: 36.815
+Longitude: 127.7866
+
+City: 구례군
+Latitude: 35.2203329
+Longitude: 127.473277
+
+City: 구로구
+Latitude: 37.4951999
+Longitude: 126.8877
+
+City: 구리시
+Latitude: 37.5941315
+Longitude: 127.1297917
+
+City: 구미시
+Latitude: 36.1195513
+Longitude: 128.3444692
+
+City: 군산시
+Latitude: 35.9679984
+Longitude: 126.7369036
+
+City: 군위군
+Latitude: 36.2425017
+Longitude: 128.5732027
+
+City: 군포시
+Latitude: 37.3615229
+Longitude: 126.9349025
+
+City: 금산군
+Latitude: 36.1087249
+Longitude: 127.48815
+
+City: 금정구
+Latitude: 35.2429
+Longitude: 129.0926
+
+City: 금천구
+Latitude: 37.4565
+Longitude: 126.8954
+
+City: 기장군
+Latitude: 35.25674265
+Longitude: 129.26778397249888
+
+City: 김제시
+Latitude: 35.803815
+Longitude: 126.880557
+
+City: 김천시
+Latitude: 36.1398035
+Longitude: 128.1139534
+
+City: 김포시
+Latitude: 37.6155683
+Longitude: 126.7157798
+
+City: 김해시
+Latitude: 35.2310947
+Longitude: 128.8908228
+
+City: 나주시
+Latitude: 35.0158859
+Longitude: 126.7108313
+
+City: 남구
+Latitude: 36.0086363
+Longitude: 129.3588062
+
+City: 남동구
+Latitude: 37.446902
+Longitude: 126.7315126
+
+City: 남양주시
+Latitude: 37.6359398
+Longitude: 127.2165051
+
+City: 남원시
+Latitude: 35.4163118
+Longitude: 127.3903713
+
+City: 남해군
+Latitude: 34.8374437
+Longitude: 127.8925589
+
+City: 노원구
+Latitude: 37.654
+Longitude: 127.0567
+
+City: 논산시
+Latitude: 36.1868623
+Longitude: 127.0987857
+
+City: 단양군
+Latitude: 36.98007335
+Longitude: 128.38641194302397
+
+City: 달서구
+Latitude: 35.8297006
+Longitude: 128.533094
+
+City: 달성군
+Latitude: 35.7753
+Longitude: 128.4312
+
+City: 담양군
+Latitude: 35.320878
+Longitude: 126.9883238
+
+City: 당진시
+Latitude: 36.8904083
+Longitude: 126.6461833
+
+City: 대덕구
+Latitude: 36.3465766
+Longitude: 127.4158483
+
+City: 도봉구
+Latitude: 37.6686
+Longitude: 127.0466
+
+City: 동구
+Latitude: 35.8865
+Longitude: 128.6355
+
+City: 동대문구
+Latitude: 37.5741982
+Longitude: 127.0395092
+
+City: 동두천시
+Latitude: 37.9030856
+Longitude: 127.0605175
+
+City: 동래구
+Latitude: 35.2052
+Longitude: 129.0837
+
+City: 동작구
+Latitude: 37.5120999
+Longitude: 126.9395
+
+City: 동해시
+Latitude: 37.5245142
+Longitude: 129.1146302
+
+City: 마포구
+Latitude: 37.566571
+Longitude: 126.9015317
+
+City: 목포시
+Latitude: 34.7903335
+Longitude: 126.3847547
+
+City: 무안군
+Latitude: 34.9905794
+Longitude: 126.4812377
+
+City: 무주군
+Latitude: 36.007
+Longitude: 127.6609
+
+City: 문경시
+Latitude: 36.5858541
+Longitude: 128.1870612
+
+City: 미추홀구
+Latitude: 37.4636
+Longitude: 126.6502
+
+City: 밀양시
+Latitude: 35.503839
+Longitude: 128.7466992
+
+City: 보령시
+Latitude: 36.33401
+Longitude: 126.613165
+
+City: 보성군
+Latitude: 34.7711356
+Longitude: 127.0798978
+
+City: 보은군
+Latitude: 36.4890118
+Longitude: 127.729242
+
+City: 봉화군
+Latitude: 36.8925
+Longitude: 128.7324
+
+City: 부산진구
+Latitude: 35.1632335
+Longitude: 129.0529462
+
+City: 부안군
+Latitude: 35.7316783
+Longitude: 126.7330195
+
+City: 부여군
+Latitude: 36.2753678
+Longitude: 126.910107
+
+City: 부천시
+Latitude: 37.5014422
+Longitude: 126.7660139
+
+City: 부평구
+Latitude: 37.5070221
+Longitude: 126.7220068
+
+City: 북구
+Latitude: 35.8855
+Longitude: 128.5828858
+
+City: 사상구
+Latitude: 35.1521
+Longitude: 128.9911
+
+City: 사천시
+Latitude: 35.003468
+Longitude: 128.064562
+
+City: 사하구
+Latitude: 35.1041
+Longitude: 128.9751
+
+City: 산청군
+Latitude: 35.4154624
+Longitude: 127.873663
+
+City: 삼척시
+Latitude: 37.4498745
+Longitude: 129.1652969
+
+City: 상주시
+Latitude: 36.4104478
+Longitude: 128.1590614
+
+City: 서구
+Latitude: 37.545
+Longitude: 126.676
+
+City: 서귀포시
+Latitude: 33.2572971
+Longitude: 126.515299
+
+City: 서대문구
+Latitude: 37.5790747
+Longitude: 126.9367861
+
+City: 서산시
+Latitude: 36.784499
+Longitude: 126.450317
+
+City: 서천군
+Latitude: 36.0800688
+Longitude: 126.6916052
+
+City: 서초구
+Latitude: 37.4835
+Longitude: 127.0322
+
+City: 성남시
+Latitude: 37.4201556
+Longitude: 127.1262092
+
+City: 성동구
+Latitude: 37.5635
+Longitude: 127.0365
+
+City: 성북구
+Latitude: 37.59
+Longitude: 127.0165
+
+City: 성주군
+Latitude: 35.9190065
+Longitude: 128.283486
+
+City: 세종시
+Latitude: 36.4799999
+Longitude: 127.289
+
+City: 속초시
+Latitude: 38.2069574
+Longitude: 128.5913424
+
+City: 송파구
+Latitude: 37.5145
+Longitude: 127.1058
+
+City: 수성구
+Latitude: 35.8584
+Longitude: 128.6305
+
+City: 수영구
+Latitude: 35.1454
+Longitude: 129.1127
+
+City: 수원시
+Latitude: 37.2633325
+Longitude: 127.0287472
+
+City: 순창군
+Latitude: 35.4276853
+Longitude: 127.17170663870868
+
+City: 순천시
+Latitude: 34.9505457
+Longitude: 127.4872992
+
+City: 시흥시
+Latitude: 37.3798891
+Longitude: 126.8032255
+
+City: 신안군
+Latitude: 34.8331095
+Longitude: 126.3522531
+
+City: 아산시
+Latitude: 36.7899498
+Longitude: 127.0026769
+
+City: 안동시
+Latitude: 36.5634886
+Longitude: 128.7260798
+
+City: 안산시
+Latitude: 37.3217152
+Longitude: 126.8308604
+
+City: 안성시
+Latitude: 37.007773
+Longitude: 127.279971
+
+City: 안양시
+Latitude: 37.3938528
+Longitude: 126.9570605
+
+City: 양구군
+Latitude: 38.16642395
+Longitude: 127.98871104677289
+
+City: 양산시
+Latitude: 35.3349979
+Longitude: 129.0370582
+
+City: 양양군
+Latitude: 38.0751
+Longitude: 128.6191
+
+City: 양주시
+Latitude: 37.7849312
+Longitude: 127.0457771
+
+City: 양천구
+Latitude: 37.5171
+Longitude: 126.8663
+
+City: 양평군
+Latitude: 37.4916
+Longitude: 127.4875
+
+City: 여수시
+Latitude: 34.7546257
+Longitude: 127.659859
+
+City: 여주시
+Latitude: 37.2982901
+Longitude: 127.637033
+
+City: 연기군
+Latitude: 36.571567
+Longitude: 127.319265
+
+City: 연수구
+Latitude: 37.4098
+Longitude: 126.6787
+
+City: 연제구
+Latitude: 35.1765
+Longitude: 129.0793
+
+City: 연천군
+Latitude: 38.0964
+Longitude: 127.0746
+
+City: 영광군
+Latitude: 35.2769282
+Longitude: 126.5124504
+
+City: 영덕군
+Latitude: 36.4149
+Longitude: 129.3659
+
+City: 영도구
+Latitude: 35.0908
+Longitude: 129.0678
+
+City: 영동군
+Latitude: 36.1747588
+Longitude: 127.7834432
+
+City: 영등포구
+Latitude: 37.5262
+Longitude: 126.8959
+
+City: 영암군
+Latitude: 34.800052
+Longitude: 126.6970381
+
+City: 영양군
+Latitude: 36.6664
+Longitude: 129.1127
+
+City: 영월군
+Latitude: 37.1834983
+Longitude: 128.4619814
+
+City: 영주시
+Latitude: 36.805685
+Longitude: 128.624054
+
+City: 영천시
+Latitude: 35.98842
+Longitude: 128.942
+
+City: 예산군
+Latitude: 36.6808989
+Longitude: 126.8448742
+
+City: 예천군
+Latitude: 36.6462999
+Longitude: 128.4376
+
+City: 오산시
+Latitude: 37.1499376
+Longitude: 127.0774625
+
+City: 옥천군
+Latitude: 36.3061692
+Longitude: 127.571482
+
+City: 옹진군
+Latitude: 37.533
+Longitude: 126.429
+
+City: 완도군
+Latitude: 34.3110373
+Longitude: 126.7553933
+
+City: 완주군
+Latitude: 35.9039
+Longitude: 127.1622
+
+City: 용산구
+Latitude: 37.5323
+Longitude: 126.99
+
+City: 용인시
+Latitude: 37.2405741
+Longitude: 127.1785572
+
+City: 울릉군
+Latitude: 37.4845293
+Longitude: 130.9058854
+
+City: 울산시
+Latitude: 35.5391697
+Longitude: 129.3119136
+
+City: 울주군
+Latitude: 35.5222362
+Longitude: 129.2423693
+
+City: 울진군
+Latitude: 36.993
+Longitude: 129.4006
+
+City: 원주시
+Latitude: 37.3420996
+Longitude: 127.9197603
+
+City: 유성구
+Latitude: 36.3620732
+Longitude: 127.3564099
+
+City: 은평구
+Latitude: 37.6024
+Longitude: 126.9293
+
+City: 음성군
+Latitude: 36.94
+Longitude: 127.6906
+
+City: 의령군
+Latitude: 35.322003
+Longitude: 128.2617827
+
+City: 의성군
+Latitude: 36.3524
+Longitude: 128.697
+
+City: 의왕시
+Latitude: 37.3449082
+Longitude: 126.9689861
+
+City: 의정부시
+Latitude: 37.7381078
+Longitude: 127.033929
+
+City: 이천시
+Latitude: 37.2808823
+Longitude: 127.4429132
+
+City: 익산시
+Latitude: 35.9479291
+Longitude: 126.9578025
+
+City: 인제군
+Latitude: 38.103560200000004
+Longitude: 128.25587170704125
+
+City: 임실군
+Latitude: 35.6174
+Longitude: 127.2893
+
+City: 장성군
+Latitude: 35.3017065
+Longitude: 126.7844061
+
+City: 장수군
+Latitude: 35.652961000000005
+Longitude: 127.54951751221245
+
+City: 장흥군
+Latitude: 34.6811762
+Longitude: 126.906996
+
+City: 전주시
+Latitude: 35.8237631
+Longitude: 127.1472805
+
+City: 정선군
+Latitude: 37.369976449999996
+Longitude: 128.7040978637942
+
+City: 정읍시
+Latitude: 35.5697678
+Longitude: 126.8559787
+
+City: 제주시
+Latitude: 33.4930566
+Longitude: 126.5130589
+
+City: 제천시
+Latitude: 37.1326042
+Longitude: 128.1913508
+
+City: 종로구
+Latitude: 37.5806949
+Longitude: 126.9827989
+
+City: 중구
+Latitude: 37.5636559
+Longitude: 126.9975097
+
+City: 중랑구
+Latitude: 37.6063
+Longitude: 127.093
+
+City: 증평군
+Latitude: 36.785213
+Longitude: 127.5818159
+
+City: 진도군
+Latitude: 34.4867515
+Longitude: 126.2629264
+
+City: 진안군
+Latitude: 35.7915
+Longitude: 127.4252
+
+City: 진주시
+Latitude: 35.1803459
+Longitude: 128.1079953
+
+City: 진천군
+Latitude: 36.880631300000005
+Longitude: 127.44138529002247
+
+City: 창녕군
+Latitude: 35.5275088
+Longitude: 128.47158735674495
+
+City: 창원시
+Latitude: 35.227956
+Longitude: 128.6818586
+
+City: 천안시
+Latitude: 36.8150283
+Longitude: 127.1140654
+
+City: 철원군
+Latitude: 38.21937035
+Longitude: 127.35026698142667
+
+City: 청도군
+Latitude: 35.6473012
+Longitude: 128.7348468
+
+City: 청송군
+Latitude: 36.4358
+Longitude: 129.0571
+
+City: 청양군
+Latitude: 36.4587024
+Longitude: 126.8019983
+
+City: 청주시
+Latitude: 36.6421169
+Longitude: 127.4891742
+
+City: 춘천시
+Latitude: 37.8810569
+Longitude: 127.7297641
+
+City: 충주시
+Latitude: 36.9907334
+Longitude: 127.9259891
+
+City: 칠곡군
+Latitude: 35.995
+Longitude: 128.4017
+
+City: 태백시
+Latitude: 37.1637943
+Longitude: 128.9857176
+
+City: 태안군
+Latitude: 36.7454236
+Longitude: 126.29836
+
+City: 통영시
+Latitude: 34.854254
+Longitude: 128.433205
+
+City: 파주시
+Latitude: 37.7598955
+Longitude: 126.7801502
+
+City: 평창군
+Latitude: 37.5441045
+Longitude: 128.44150094084102
+
+City: 평택시
+Latitude: 36.9924966
+Longitude: 127.1127168
+
+City: 포천시
+Latitude: 37.8948267
+Longitude: 127.2007295
+
+City: 포항시
+Latitude: 36.0189315
+Longitude: 129.3429384
+
+City: 하남시
+Latitude: 37.5392918
+Longitude: 127.214948
+
+City: 하동군
+Latitude: 35.067279
+Longitude: 127.751741
+
+City: 함안군
+Latitude: 35.2726875
+Longitude: 128.4065038
+
+City: 함양군
+Latitude: 35.5204145
+Longitude: 127.7252966
+
+City: 함평군
+Latitude: 35.0656537
+Longitude: 126.5166414
+
+City: 합천군
+Latitude: 35.5664445
+Longitude: 128.1658334
+
+City: 해남군
+Latitude: 34.5734106
+Longitude: 126.5989275
+
+City: 해운대구
+Latitude: 35.1629
+Longitude: 129.1638
+
+City: 홍성군
+Latitude: 36.56675695
+Longitude: 126.58154718189121
+
+City: 홍천군
+Latitude: 37.6967
+Longitude: 127.8888
+
+City: 화성시
+Latitude: 37.1994653
+Longitude: 126.8312632
+
+City: 화순군
+Latitude: 35.0643095
+Longitude: 126.9864311
+
+City: 화천군
+Latitude: 38.1063
+Longitude: 127.708
+
+City: 횡성군
+Latitude: 37.4916
+Longitude: 127.985
