@@ -20,8 +20,6 @@ def get_power_info(
 ):
     power_usage_average = powerUsageService.get_average_power_usage(metro, city, cntr, year, month)
     previous_year_average_power = powerUsageService.get_average_power_usage(metro, city, cntr, str(int(year) - 1), month)
-    print(power_usage_average)
-    print(previous_year_average_power)
 
 
     if power_usage_average is None:
@@ -31,11 +29,9 @@ def get_power_info(
             "myPower": myPowerUsage,
             "averagePower": power_usage_average,
             "power_ratio": float(powerUsageService.get_ratio(power_usage_average, float(myPowerUsage))),
-            "previousYearAveragePower": previous_year_average_power,
+            "prevAveragePower": previous_year_average_power,
         }
-    
     return response
 
 
 # /api/power-usage?myPowerUsage=400&metro=서울특별시&city=성동구&cntr=교육용&year=2018&month=11
-# uvicorn app.main:app --port 8080
