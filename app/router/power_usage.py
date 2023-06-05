@@ -28,7 +28,7 @@ def get_power_info(
     response = {
             "myPower": myPowerUsage,
             "averagePower": power_usage_average,
-            "power_ratio": float(powerUsageService.get_ratio(power_usage_average, float(myPowerUsage))),
+            "powerRatio": float(powerUsageService.get_ratio(power_usage_average, float(myPowerUsage))),
             "prevAveragePower": previous_year_average_power,
         }
     return response
