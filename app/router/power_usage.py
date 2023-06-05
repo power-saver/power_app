@@ -1,23 +1,24 @@
 from fastapi import APIRouter
 from fastapi.responses import JSONResponse
 from ..config.connection import MongoDBConnection
-from ..service import power_usage_service
+from ..service.power_usage_service import PowerUsageService
+from ..model.power_usage_request import PowerUsageRequest
 
 router = APIRouter(
     prefix="/api/power-usage",
 )
 
-powerUsageService = power_usage_service.PowerUsageService()
+powerUsageService = PowerUsageService()
 
-@router.get("")
-def get_power_info(
-        myPowerUsage: str,
-        metro: str,
-        city: str,
-        cntr: str,
-        year: str,
-        month: str
-):
+@router.post("")
+async def get_power_info(request: PowerUsageRequest):
+    my_power_usage = request.myPowerUsage
+    metro = request.metro
+    city = request.city
+    cntr = request.cntr
+    year = request.year
+    month = request.month
+
     power_usage_average = powerUsageService.get_average_power_usage(metro, city, cntr, year, month)
     previous_year_average_power = powerUsageService.get_average_power_usage(metro, city, cntr, str(int(year) - 1), month)
 
@@ -26,9 +27,9 @@ def get_power_info(
         return JSONResponse(status_code=404, content={"message": "404 Not Found."})
     
     response = {
-            "myPower": myPowerUsage,
+            "myPower": my_power_usage,
             "averagePower": power_usage_average,
-            "powerRatio": float(powerUsageService.get_ratio(power_usage_average, float(myPowerUsage))),
+            "powerRatio": float(powerUsageService.get_ratio(power_usage_average, float(my_power_usage))),
             "prevAveragePower": previous_year_average_power,
         }
     return response
