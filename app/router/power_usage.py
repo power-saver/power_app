@@ -16,8 +16,8 @@ async def get_power_info(request: PowerUsageRequest):
     metro = request.metro
     city = request.city
     cntr = request.cntr
-    year = request.year
-    month = request.month
+    year = str(format(int(request.year),'02'))
+    month = str(format(int(request.month),'02'))
 
     power_usage_average = powerUsageService.get_average_power_usage(metro, city, cntr, year, month)
     previous_year_average_power = powerUsageService.get_average_power_usage(metro, city, cntr, str(int(year) - 1), month)
