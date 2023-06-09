@@ -52,6 +52,40 @@ class PowerUsageService:
         average_power_usage = document['average_power_usage']
         return average_power_usage
 
+    def get_neighbor_city_power_usage_list(self, metro: str, city: str, cntr: str, year: str, month: str) -> Optional[float]:
+        nearest_city_list = cityCoordinateService.get_nearest_cities(city)
+        nearest_city_list.append(city)
+        pipeline = [
+            {
+                '$match': {
+                    'city': {'$in': nearest_city_list},
+                    'metro': metro,
+                    'cntr': cntr,
+                    'year': year,
+                    'month': month
+                }
+            },
+            {
+                '$group': {
+                    '_id': "$city",
+                    'averagePower': {
+                        '$avg': {'$divide': ['$powerUsage', '$custCnt']}
+                    }
+                }
+            },
+            {
+                '$project': {
+                    '_id': 0,
+                    'name': '$_id',
+                    'averagePower': 1
+                }
+            }
+        ]
+        
+        document = list(self.collection.aggregate(pipeline))
+
+        return document
+
     def get_ratio(self, a: float, b: float) -> float:
         change = b - a
         ratio = (change / a) * 100
