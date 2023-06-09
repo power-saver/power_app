@@ -161,7 +161,52 @@ class PowerUsageService:
         ]    
         document = list(self.collection.aggregate(pipeline))
         return document
-        
+
+    def get_my_city_cost(self, my_power_usage:str, metro: str, city:str, cntr:str, year: str, month: str):
+
+
+        pipeline = [
+            {
+            "$match": {
+                "metro": metro,
+                "city": city,
+                "cntr": cntr,
+                "month": month,
+                "year": year
+            }
+            },
+            {
+            "$addFields": {
+                "billPerCust": {
+                    "$divide": ["$bill", "$custCnt"]
+                }
+            }
+            },
+            {
+                "$group": {
+                    "_id": None,
+                    "averageBillPerCust": {
+                        "$avg": "$billPerCust"
+                    },
+                    "unitCost":{
+                        "$avg": "$unitCost"
+                    }
+                }
+            },
+            {
+            "$project": {
+                "_id": 0,
+                "averageBillPerCust": 1,
+                "unitCost": 1
+            }
+            }
+        ]
+
+        result = list(self.collection.aggregate(pipeline))
+        average_bill_per_cust = result[0]["averageBillPerCust"]
+        my_cost = int(result[0]["unitCost"])*int(my_power_usage)
+        return [ average_bill_per_cust, my_cost] 
+    
     def get_ratio(self, a: float, b: float) -> float:
         change = b - a
         ratio = (change / a) * 100
