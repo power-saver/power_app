@@ -34,5 +34,5 @@ async def get_power_info(request: PowerUsageRequest):
         }
     return response
 
-
+    
 # /api/power-usage?myPowerUsage=400&metro=서울특별시&city=성동구&cntr=교육용&year=2018&month=11

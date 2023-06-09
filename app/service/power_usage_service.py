@@ -23,14 +23,10 @@ class PowerUsageService:
 
     def get_average_power_usage(self, metro: str, city: str, cntr: str, year: str, month: str) -> Optional[float]:
         
-        nearest_city_list = cityCoordinateService.get_nearest_cities(city)
-        nearest_city_list.append(city)
-
-
         pipeline = [
                     {
                         "$match": {
-                            "city": {"$in": nearest_city_list},
+                            "city": city,
                             "metro": metro,
                             "cntr": cntr,
                             "year": year,
