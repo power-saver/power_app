@@ -86,6 +86,47 @@ class PowerUsageService:
 
         return document
 
+    def get_top_city_power_usage_list(self, cntr: str, year: str, month: str):
+        
+        pipeline = [
+            {
+                '$match': {
+                'cntr': cntr,
+                'month': month,
+                'year': year
+                }
+            },
+            {
+                '$addFields': {
+                'powerUsagePerCust': {
+                '$divide': ['$powerUsage', '$custCnt']
+                }
+            }
+            },
+            {
+            '$group': {
+                '_id': {'metro': '$metro', 'city': '$city'},
+                'averagePowerUsage': {'$avg': '$powerUsagePerCust'}
+                }
+            },
+            {
+            '$project': {
+                '_id': 0,
+                'name': '$_id.city',
+                'averagePowerUsage': 1
+                }
+            },
+            {
+                '$sort': {'averagePowerUsage': -1}
+            },
+            {
+                '$limit': 5
+            }
+        ]
+
+        document = list(self.collection.aggregate(pipeline))
+        return document
+
     def get_ratio(self, a: float, b: float) -> float:
         change = b - a
         ratio = (change / a) * 100

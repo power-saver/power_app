@@ -22,6 +22,8 @@ async def get_power_info(request: PowerUsageRequest):
     power_usage_average = powerUsageService.get_average_power_usage(metro, city, cntr, year, month)
     previous_year_average_power = powerUsageService.get_average_power_usage(metro, city, cntr, str(int(year) - 1), month)
     neighbor_city_list = powerUsageService.get_neighbor_city_power_usage_list(metro, city, cntr, year, month)
+    top_city_list = powerUsageService.get_top_city_power_usage_list(cntr, year, month)
+    
     if power_usage_average is None:
         return JSONResponse(status_code=404, content={"message": "404 Not Found."})
     
@@ -30,7 +32,8 @@ async def get_power_info(request: PowerUsageRequest):
             "averagePower": power_usage_average,
             "powerRatio": float(powerUsageService.get_ratio(power_usage_average, float(my_power_usage))),
             "prevAveragePower": previous_year_average_power,
-            "neighborCityList" : neighbor_city_list
+            "neighborCityList" : neighbor_city_list,
+            "topCityList" : top_city_list
         }
     return response
 
