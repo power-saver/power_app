@@ -68,7 +68,7 @@ class PowerUsageService:
             {
                 '$group': {
                     '_id': "$city",
-                    'averagePower': {
+                    'averagePowerUsage': {
                         '$avg': {'$divide': ['$powerUsage', '$custCnt']}
                     }
                 }
@@ -77,7 +77,7 @@ class PowerUsageService:
                 '$project': {
                     '_id': 0,
                     'name': '$_id',
-                    'averagePower': 1
+                    'averagePowerUsage': 1
                 }
             }
         ]
@@ -127,6 +127,41 @@ class PowerUsageService:
         document = list(self.collection.aggregate(pipeline))
         return document
 
+    def get_power_by_cntr(self, metro: str, city:str, year: str, month: str):
+            
+        pipeline = [
+            {
+                '$match': {
+                    'metro': metro,
+                    'city' : city,
+                    'month': month,
+                    'year': year
+                }
+            },
+            {
+                '$addFields': {
+                'powerUsagePerCust': {
+                '$divide': ['$powerUsage', '$custCnt']
+                }
+            }
+            },
+            {
+            '$group': {
+                '_id': {'cntr': '$cntr'},
+                'averagePowerUsage': {'$avg': '$powerUsagePerCust'}
+                }
+            },
+            {
+            '$project': {
+                '_id': 0,
+                'name': '$_id.cntr',
+                'averagePowerUsage': 1
+                }
+            }
+        ]    
+        document = list(self.collection.aggregate(pipeline))
+        return document
+        
     def get_ratio(self, a: float, b: float) -> float:
         change = b - a
         ratio = (change / a) * 100
