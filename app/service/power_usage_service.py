@@ -112,7 +112,7 @@ class PowerUsageService:
             {
             '$project': {
                 '_id': 0,
-                'name': '$_id.city',
+                'name': { '$concat': ['$_id.metro',' ','$_id.city'] },
                 'averagePowerUsage': 1
                 }
             },
