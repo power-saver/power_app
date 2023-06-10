@@ -8,11 +8,22 @@ client = MongoClient("mongodb://localhost:27017/")
 db = client["mydatabase"]
 collection = db["power_usage_contract"]
 
+city_collection = db["city_coordinates"]
+
+
 # API URL 및 키 설정
-api_key = ""
+api_key = "DppegJ028JUq9gaBiDk8LZHc6xSfFW4MT936vaRJ"
 base_url = "https://bigdata.kepco.co.kr/openapi/v1/powerUsage/contractType.do"
 
-# JSON 데이터 정리 함수
+with open('/user/city_coordinates/city_coordinates.json', 'r') as file:
+    data = json.load(file)
+
+# 데이터를 MongoDB에 저장합니다.
+city_collection.insert_many(data)
+
+# 연결을 닫습니다.
+
+# # JSON 데이터 정리 함수
 def clean_json_data(json_string):
     try:
         json_string = json_string.replace("}{", "},{")
@@ -47,5 +58,7 @@ for year in range(2002, 2023):
             collection.insert_one(item)
         # 진행 상황 출력
         print(f"Data imported for year {year} and month {month}")
+
+
 
 print("데이터 가져오기 및 MongoDB에 저장 완료")
