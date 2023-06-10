@@ -3,7 +3,7 @@ from pymongo.collection import Collection
 from pymongo import MongoClient
 from .city_coordinates_service import CityCoordinateService
 
-MONGO_URI = "mongodb://localhost:27017/"
+MONGO_URI = "mongodb://mongodb:27017/"
 MONGO_DB = "mydatabase"
 MONGO_COLLECTION = "power_usage_contract"
 

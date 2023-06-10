@@ -4,7 +4,7 @@ import json
 from pymongo import MongoClient
 
 # MongoDB 연결 설정
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb://mongodb:27017/")
 db = client["mydatabase"]
 collection = db["power_usage_contract"]
 
@@ -15,11 +15,11 @@ city_collection = db["city_coordinates"]
 api_key = "DppegJ028JUq9gaBiDk8LZHc6xSfFW4MT936vaRJ"
 base_url = "https://bigdata.kepco.co.kr/openapi/v1/powerUsage/contractType.do"
 
-with open('/user/city_coordinates/city_coordinates.json', 'r') as file:
-    data = json.load(file)
+# with open('/user/city_coordinates/city_coordinates.json', 'r') as file:
+#     data = json.load(file)
 
-# 데이터를 MongoDB에 저장합니다.
-city_collection.insert_many(data)
+# # 데이터를 MongoDB에 저장합니다.
+# city_collection.insert_many(data)
 
 # 연결을 닫습니다.
 
